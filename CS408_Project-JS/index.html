@@ -1,34 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
+    <!--Tile of the website-->
     <title>RAM-page</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-
     <!-- Theme CSS -->
     <link href="css/ram.css" rel="stylesheet">
-    <!--<link href="css/ram.min.css" rel="stylesheet">-->
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.js"></script>
@@ -37,12 +19,11 @@
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
+    <!--This plugin help for a smooth transition from one section to another-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
     <!-- Theme JavaScript -->
     <script src="js/ram.js"></script>
-    <!--<script src="js/ram.min.js"></script>-->
-
 
     <script >
 
@@ -68,7 +49,6 @@
                 Menu <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" href="#page-top">
-                <!--<i class="fa fa-play-circle"></i> -->
                 <span class="light">RAM</span>
             </a>
         </div>
@@ -76,15 +56,15 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right navbar-main-collapse" align="center">
             <ul class="nav navbar-nav">
-                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <!-- Hidden li included to remove active class from gallery link when scrolled up past gallery section -->
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#about">Gallery</a>
+                    <a class="page-scroll" href="#gallery">Gallery</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#founder">Recipe Videos</a>
+                    <a class="page-scroll" href="#video">Recipe Videos</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#contact">Contact</a>
@@ -108,8 +88,8 @@
     </div>
 </header>
 
-<!-- About Section -->
-<section id="about" class="container content-section text-center">
+<!-- Gallery Section -->
+<section id="gallery" class="container content-section text-center">
     <div class="row">
 
         <header class="image-gallery" >
@@ -117,21 +97,19 @@
                 <h1 class="brand-name">Pizza Gallery</h1>
                 <p class="group-description">Click on your favorite picture to see the recipe</p>
 
-                <!--<img src="img/pizza1.jpg" id="slide" onclick="playVideo();" style="width:100%" />-->
-                <!--<a href="#row" id="playVideo">play video</a>-->
                 <!--This nav bar will help for scrolling to the specific are of the video once clicked-->
                 <nav class ="navbar move-down" role = "navigate">
-                    <div class = "collapse navbar-collapse navar-right navbar-main-collapse-to-founder" aslign ="center">
+                    <div class = "collapse navbar-collapse navar-right navbar-main-collapse-to-video" aslign ="center">
 
                         <ul class = "nav navbar-navig">
                             <li class=" hidden">
                                 <a href="#page-top"></a>
                             </li>
                             <li>
-                                <a class ="page-scrolling" href="#founder">
-                                   <div class ="image">
+                                <a class ="page-scrolling" href="#video">
+                                   <!--<div class ="image">-->
                                        <img src="img/pizza1.jpg" id="slide" style="width:100%" />
-                                   </div>
+                                   <!--</div>-->
                                 </a>
                             </li>
                         </ul>
@@ -147,37 +125,36 @@
 </section>
 
 
-<!-- Download Section -->
-<section id="founder" class="content-section text-center">
-    <div class="download-section">
-        <h2>Recipe Videos</h2>
+<!-- Video Section -->
+<section id="video" class="content-section text-center">
+    <div class="content-section text-center">
+        <div class="row">
 
-        <!--<h1>The Guys behind RAM</h1>-->
-        <!--<p1>Richard Jung</p1>-->
-        <!--</br>-->
-        <!--<p1>Ashkan Ghafari</p1>-->
-        <!--</br>-->
-        <!--<p1>Magloire Pungi</p1>-->
-    </div>
-</section>
+        <header class="recipes-video" >
+                <h2>Recipe Videos</h2>
 
-<!-- video section -->
-<div class="content-section text-center">
-    <div class="row">
-        <div class="col-xs-4-col-xs-offset-4">
-            <!--<iframe class="video" id="currVideo" width="560" height="315" src="https://www.youtube.com/embed/WFlRkFw7K8U" frameborder="0" allowfullscreen></iframe>-->
+                <!--imbeded videos-->
 
-            <!--<a id="play-video" href="#">Play Video</a><br />-->
+                <!--video 1-->
+                <div class="col-xs-4-col-xs-offset-4">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HCAPjIVOdJw" frameborder="0" allowfullscreen></iframe>
+                </div>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/HCAPjIVOdJw" frameborder="0" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VOGqgROq3FQ" frameborder="0" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/le9ILVh1okM" frameborder="0" allowfullscreen></iframe>
+                <!--video 2-->
+                <div class="col-xs-4-col-xs-offset-4">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VOGqgROq3FQ" frameborder="0" allowfullscreen></iframe>
+                </div>
 
+                <!--video 3-->
+                <div class="col-xs-4-col-xs-offset-4">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/le9ILVh1okM" frameborder="0" allowfullscreen></iframe>
+                </div>
 
-
+        </header>
+            <!--</div>-->
         </div>
     </div>
-</div>
+</section>
 
 <!-- Contact Section -->
 <section id="contact" class="container content-section text-center">

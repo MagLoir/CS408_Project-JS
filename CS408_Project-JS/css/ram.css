@@ -17,23 +17,10 @@ h4,
 h5,
 h6 {
   margin: 0 0 35px;
-  /*text-transform: uppercase;*/
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
 }
-
-/*.image{*/
-    /*position: relative;*/
-    /*!*float: none;*!*/
-    /*width: 100px;*/
-    /*height: 100px;*/
-    /*background-position: 50% 50%;*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-/*}*/
-
-
 p {
   margin: 0 0 25px;
   font-size: 18px;
@@ -134,7 +121,6 @@ a:focus {
   color: white;
 
    background: url(../img/hftd_brick_oven_pizza.jpg) no-repeat bottom center scroll;
-  /*background-color: black;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -162,42 +148,7 @@ a:focus {
     font-size: 26px;
   }
 }
-.btn-circle {
-  width: 70px;
-  height: 70px;
-  margin-top: 15px;
-  padding: 7px 16px;
-  border: 2px solid white;
-  border-radius: 100% !important;
-  font-size: 40px;
-  color: white;
-  background: transparent;
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background 0.3s ease-in-out;
-}
-.btn-circle:hover,
-.btn-circle:focus {
-  outline: none;
-  color: white;
-  background: rgba(255, 255, 255, 0.1);
-}
-.btn-circle i.animated {
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-duration: 1s;
-  -moz-transition-property: -moz-transform;
-  -moz-transition-duration: 1s;
-}
-.btn-circle:hover i.animated {
-  -webkit-animation-name: pulse;
-  -moz-animation-name: pulse;
-  -webkit-animation-duration: 1.5s;
-  -moz-animation-duration: 1.5s;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  -moz-animation-timing-function: linear;
-}
+
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale(1);
@@ -229,12 +180,10 @@ a:focus {
 .content-section {
   padding-top: 100px;
 }
-.download-section {
+.video-section {
   width: 100%;
   padding: 50px 0;
   color: white;
-  /*background: url(../img/Tracey-Capone.jpg) no-repeat center center scroll;*/
-  /*background-color: white;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -259,33 +208,8 @@ iframe {
   }
 }
 
-  .download-section {
+  .video-section {
     padding: 100px 0;
-  }
-
-
-  .btn {
-    /*text-transform: uppercase;*/
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    border-radius: 0;
-  }
-
-  .btn-default {
-    border: 1px solid #42DCA3;
-    color: #42DCA3;
-    background-color: transparent;
-  }
-
-  .btn-default:hover,
-  .btn-default:focus {
-    border: 1px solid #42DCA3;
-    outline: none;
-    color: black;
-    background-color: #42DCA3;
   }
 
   ul.banner-social-buttons {

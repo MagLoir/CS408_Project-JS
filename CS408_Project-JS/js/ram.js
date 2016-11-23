@@ -38,46 +38,7 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 
-
-
-    // var slideIndex = 1;
-    // showSlides(slideIndex);
-    //
-    // function plusSlides(n) {
-    //     showSlides(slideIndex += n);
-    // }
-    //
-    // function currentSlide(n) {
-    //     showSlides(slideIndex = n);
-    // }
-    //
-    // function showSlides(n) {
-    //     var i;
-    //     var slides = document.getElementsByClassName("mySlides");
-    //     var dots = document.getElementsByClassName("dot");
-    //
-    //
-    //     if (n > slides.length) {
-    //         slideIndex = 1
-    //     }
-    //
-    //     if (n < 1) {
-    //         slideIndex = slides.length
-    //     }
-    //
-    //     for (i = 0; i < slides.length; i++) {
-    //         slides[i].style.display = "none";
-    //     }
-    //
-    //     for (i = 0; i < dots.length; i++) {
-    //         dots[i].className = dots[i].className.replace(" active", "");
-    //     }
-    //
-    //     slides[slideIndex-1].style.display = "block";
-    //     dots[slideIndex-1].className += " active";
-
-    // }
-
+//This section is for the image sliding show
 
     var slideImages = new Array();
     var whichimage = 0;
@@ -91,14 +52,8 @@ $('.navbar-collapse ul li a').click(function() {
 
     //variable that will increment through the images
     var step = 0;
-
-    // var x = document.getElementById("slide");
-
-
-// <img src="img/pizza1.jpg" id="slide" style="width:100%" />
-
-var x; //= document.getElementsByTagName("img").item(0);
-var v; //= x.getAttribute("src");
+    var x;
+    var v;
 
     function slideit() {
 
@@ -125,22 +80,5 @@ var v; //= x.getAttribute("src");
         setTimeout("slideit()",2500);
     }
 
-    function slidelink() {
-        if(whichimage == 0) {
-            window.location = "http://minimalistbaker.com/my-favorite-vegan-pizza/";
-        }
-        else if(whichimage == 1) {
-            window.location = "http://minimalistbaker.com/my-favorite-vegan-pizza/";
-        }
-        else if(whichimage == 3) {
-            window.location = "http://minimalistbaker.com/my-favorite-vegan-pizza/";
-        }
-
-    }
     slideit();
-
-
-    function getVideo() {
-
-    }
 
